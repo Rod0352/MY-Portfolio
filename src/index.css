@@ -1,0 +1,77 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+
+    background-image: url(../src/assets/About/backgroundImg.jpg);
+    opacity: 100%; 
+ background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content:space-between;
+    margin:4%;
+    max-width: 90%;
+    padding: 0px 10px;
+}
+.about{
+    width: 40%;
+
+}
+.intro{
+    font-size: 17px;
+}
+.container{
+    justify-content:center;
+    position: fixed;
+}
+.form{
+    padding-left: 10%;
+    padding-right: 10%;
+    position: static;
+    color: Gold;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color:gold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* hfres */
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+      
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+ }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+
+  .card {
+    width: 25%;
+    text-align: center;
+    margin: 25px;
+  }
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
