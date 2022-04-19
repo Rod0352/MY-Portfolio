@@ -51,16 +51,17 @@ function Projects() {
   ]);
   return (
     <>
-      <div className="d-flex justify-content-end  flex-row mx-2">
+      <div className="container d-flex justify-content-center  flex-row mx-2">
         {projects.map((project, i) => (
-          <Card style={{ width: '18rem' }}>
+          <Card className="card text-white bg-secondary mb-3" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={project.image} key={project.name} />
             <Card.Body>
               <Card.Title className='p'>{project.name}</Card.Title>
               <Card.Text >
                 {project.description}
               </Card.Text>
-              <Button href={project.url} target="blank">Check it Out!</Button>
+              
+              <Button className='btn btn-warning' href={project.url} target="blank">Check it Out!</Button>
             </Card.Body>
           </Card>
         ))}

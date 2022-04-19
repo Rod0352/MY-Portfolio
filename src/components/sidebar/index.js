@@ -11,8 +11,8 @@ import {
 const Sidebar = (props) => {
   const { currentNavItem, setCurrentNavItem, navItems = [] } = props;
   return (
-    <div style={{ display: 'flex', height: '100%', overflow: 'scroll initial' }}>
-      <CDBSidebar textColor="gold" maxWidth="220px" backgroundColor="">
+    <div style={{ display: 'flex', height: '100%', overflow: 'scroll initial', position:'fixed', left:'0', padding: '69px'}}>
+      <CDBSidebar textColor="gold" maxWidth="140%" backgroundColor="" >
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="text-decoration-none" style={{ color: 'gold' }}>
             Navigation
@@ -34,7 +34,7 @@ const Sidebar = (props) => {
                     setCurrentNavItem(navItem);
                   }}
                 >
-                 <CDBSidebarMenuItem  trxtColor="Gold" textFontSize="19px"> {navItem.name}</CDBSidebarMenuItem>
+                 <CDBSidebarMenuItem  trxtColor="Gold" textFontSize="20px"> {navItem.name}</CDBSidebarMenuItem>
                 </a>
               </li>
             ))}
