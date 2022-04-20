@@ -29,12 +29,20 @@ main {
 
 .about {
   width: 40%;
-
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutText{
+  height: 29%;
 }
 
 .intro {
   font-size: 22px;
   font-weight: 600;
+}
+img{
+  width:30%;
+  height: auto;
 }
 
 .container {
