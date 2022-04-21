@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-Page/static/css/main.2c0c7d2f.css",
+    "main.css": "/My-Portfolio-Page/static/css/main.02fe7074.css",
     "main.js": "/My-Portfolio-Page/static/js/main.e898b470.js",
     "static/js/787.1ed0c42c.chunk.js": "/My-Portfolio-Page/static/js/787.1ed0c42c.chunk.js",
     "static/media/project6.png": "/My-Portfolio-Page/static/media/project6.e6174ed7f9bb66736008.png",
     "static/media/fa-solid-900.svg": "/My-Portfolio-Page/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/My-Portfolio-Page/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/project5.png": "/My-Portfolio-Page/static/media/project5.ef9dfe400c3e9b991539.png",
-    "static/media/backgroundImg.jpg": "/My-Portfolio-Page/static/media/backgroundImg.7f8b01eca143ac54a419.jpg",
+    "static/media/backgroundImg.png": "/My-Portfolio-Page/static/media/backgroundImg.7f8b01eca143ac54a419.png",
     "static/media/project2.png": "/My-Portfolio-Page/static/media/project2.cd96dc971b9680b27687.png",
     "static/media/project3.png": "/My-Portfolio-Page/static/media/project3.4657873fa3238098be14.png",
     "static/media/fa-solid-900.eot": "/My-Portfolio-Page/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
@@ -26,12 +26,12 @@
     "static/media/project1.png": "/My-Portfolio-Page/static/media/project1.1a1c6701e7974d4d1761.png",
     "static/media/fa-regular-400.woff2": "/My-Portfolio-Page/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/My-Portfolio-Page/index.html",
-    "main.2c0c7d2f.css.map": "/My-Portfolio-Page/static/css/main.2c0c7d2f.css.map",
+    "main.02fe7074.css.map": "/My-Portfolio-Page/static/css/main.02fe7074.css.map",
     "main.e898b470.js.map": "/My-Portfolio-Page/static/js/main.e898b470.js.map",
     "787.1ed0c42c.chunk.js.map": "/My-Portfolio-Page/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c0c7d2f.css",
+    "static/css/main.02fe7074.css",
     "static/js/main.e898b470.js"
   ]
 }

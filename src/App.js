@@ -1,10 +1,8 @@
 import React,{useState} from "react";
 import Header from "./components/Header";
 import About from "./components/About";
-// import Contact from "./components/Contact";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects"
-import Resume from "./components/Resume";
 import Sidebar from './components/sidebar';
 import { BrowserRouter as Router } from 'react-router-dom';
 

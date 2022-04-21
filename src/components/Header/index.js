@@ -6,7 +6,7 @@ function Header() {
            
                 <div className="  px-4 py-5 text-center">
                     <div className="py-5 ">
-                        <a href="/about"> <h1 className=" display-2 fw-bold ">Rodney Scott</h1></a>
+                        <a href="/"> <h1 className=" display-2 fw-bold ">Rodney Scott</h1></a>
                        
                     </div>
                 </div>

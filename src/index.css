@@ -3,13 +3,13 @@
 
 body {
 
-  background-image: url(../src/assets/About/backgroundImg.jpg);
+  background-image: url(./assets/About/backgroundImg.png);
   opacity: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 * {
