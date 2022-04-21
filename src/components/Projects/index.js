@@ -26,25 +26,25 @@ function Projects() {
     },
       {
       name: 'Budget Tracker',
-      githuburl: 'https://github.com/sandy3392/legendary-waddle',
+      url: 'https://github.com/sandy3392/legendary-waddle',
       image: project3,
       description: 'This is a budget tracker app with offline functionality wehre you can add and delete expenses with and without internet connectivity'
     },
     {
       name: 'NoteTaker App',
-      githuburl: 'https://glacial-spire-91877.herokuapp.com',
+      url: 'https://glacial-spire-91877.herokuapp.com',
       image: project4,
       description: 'The Note taker app lets a user take notes and save them online and users will be able to access the notes anytime anywhere'
     },
     {
       name: 'Code Quiz',
-      githuburl: 'https://rod0352.github.io/Web-API-CodeQuiz-/',
+      url: 'https://rod0352.github.io/Web-API-CodeQuiz-/',
       image: project6,
       description: 'The Code quiz is one of my earliest works, displaying front-end JS'
     },
     {
       name: 'ReadMe Generator',
-      githuburl: 'https://github.com/Rod0352/README-generator',
+      url: 'https://github.com/Rod0352/README-generator',
       image: project5,
       description: 'Using "Inquier" and node, dynamically generate a README.md in your terminal with node index'
     },

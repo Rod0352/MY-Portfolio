@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio-page",
   "version": "0.1.0",
-  "homepage": "https://Rod0352.github.io/my-portfolio-page/",
-  "private": true,
+  "homepage": "https://rod0352.github.io/My-Portfolio-Page/#About",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
