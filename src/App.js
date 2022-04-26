@@ -4,7 +4,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects"
 import Sidebar from './components/sidebar';
-// import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import './App.css';
 import './index.css';
@@ -20,16 +20,12 @@ function App() {
     },
     {
       name: "Contact",
-    },
-    // {
-    //   name: "Resume",
-    // },
-    
+    }    
   ]);
   const [currentNavItem, setCurrentNavItem] = useState(navItems[0]);
 
   return (
-    <>
+    <Router>
 
     <Header></Header>
     <main>
@@ -41,10 +37,8 @@ function App() {
     {currentNavItem.name === "About" && <About></About>}
     {currentNavItem.name === "Projects" && <Projects></Projects>}
     {currentNavItem.name === "Contact" && <Contact></Contact>}
-    {/* {currentNavItem.name === "Resume" && <Resume></Resume>} */}
     </main>
-    {/* <Footer></Footer> */}
-    </>
+    </Router>
   );
 }
 

@@ -23,7 +23,7 @@ const Sidebar = (props) => {
           <CDBSidebarMenu>
             <ul>
               {navItems.map((navItem) => (
-                <li
+                <div
                   className={`navItem ${currentNavItem.name === navItem.name && `navActive`
                     }`}
                   key={navItem.name}
@@ -35,7 +35,7 @@ const Sidebar = (props) => {
                   >
                     <CDBSidebarMenuItem trxtColor="Gold" textFontSize="20px"> {navItem.name}</CDBSidebarMenuItem>
                   </a>
-                </li>
+                </div>
               ))}
             </ul>
 
