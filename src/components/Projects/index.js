@@ -26,7 +26,7 @@ function Projects() {
     },
       {
       name: 'Budget Tracker',
-      url: 'https://github.com/sandy3392/legendary-waddle',
+      url: 'https://github.com/Rod0352/README-generator',
       image: project3,
       description: 'This is a budget tracker app with offline functionality wehre you can add and delete expenses with and without internet connectivity'
     },
